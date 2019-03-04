@@ -1,7 +1,7 @@
-rule 4fa8eb9edfebab3914421c3623516ba6_js_malware
+rule 4fa8eb9edfebab3914421c3623516ba6_js_loader
 {
   meta
-  description = "Detects samples that share a domain or payload name with sample 4fa8eb9edfebab3914421c3623516ba6 from Hynek Petrak's collection"
+  description = "Detects samples that share a domain or payload name with malicious downloader+loader sample 4fa8eb9edfebab3914421c3623516ba6 from Hynek Petrak's collection"
   strings:
   $part1 = "meskolz.com"
   $part2 = "cmd.exe /c"
